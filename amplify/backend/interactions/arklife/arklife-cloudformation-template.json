@@ -78,8 +78,8 @@
 				"Runtime": "nodejs8.10",
 				"Timeout": "300",
 				"Code": {
-					"S3Bucket": "arklife-production-20190923140803-deployment",
-					"S3Key": "amplify-builds/arklife-662f587046786772574a-build.zip"
+					"S3Bucket": "arklife-newenviron-20190923233008-deployment",
+					"S3Key": "amplify-builds/arklife-556f5631634d636d316d-build.zip"
 				}
 			}
 		},

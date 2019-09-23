@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView helloworld;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         helloworld = findViewById(R.id.helloworld);
@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         helloworld.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TextActivity.class));
+               // startActivity(new Intent(MainActivity.this, TextActivity.class));
+                new ImageRekog().analyzeImage();
             }
         });
     }

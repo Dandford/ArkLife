@@ -15,5 +15,22 @@
                 "cognito63279a83": {}
             }
         }
+    },
+    "newenviron": {
+        "awscloudformation": {
+            "AuthRoleName": "arklife-newenviron-20190923233008-authRole",
+            "UnauthRoleArn": "arn:aws:iam::781234345806:role/arklife-newenviron-20190923233008-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::781234345806:role/arklife-newenviron-20190923233008-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "arklife-newenviron-20190923233008-deployment",
+            "UnauthRoleName": "arklife-newenviron-20190923233008-unauthRole",
+            "StackName": "arklife-newenviron-20190923233008",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:781234345806:stack/arklife-newenviron-20190923233008/0658fca0-de17-11e9-a7f7-0642812278ba"
+        },
+        "categories": {
+            "auth": {
+                "cognito63279a83": {}
+            }
+        }
     }
 }
